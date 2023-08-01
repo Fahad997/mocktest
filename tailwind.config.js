@@ -4,8 +4,18 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        beat: {
+          to: {
+            transform: `scale(1.08)`,
+          },
+      },
+    },
+    animation: {
+      beat: `beat .40s infinite alternate`,
+    }
   },
   plugins: [],
 }
-
+}
