@@ -248,6 +248,34 @@ const App = () => {
     <h1 className="my-6 text-center">To find out more about the ROI-driven sponsorship and exhibition opportunities, contact us now at</h1>
     <h1 className="text-center">+971 4 243 4677 or email <a href="#" className="text-red-500">info@verve-management.com</a></h1>
     </section>
+
+    <footer className="mt-8 px-10 py-6 bg-[#021159]">
+      <div className="flex mt-8 justify-evenly border-b border-b-slate-400">
+      <div className="w-1/2">
+        <h1 className="text-white font-bold text-2xl">Quick Links</h1>
+        <ul className="mt-8">
+          <li className="uppercase text-white py-4 flex items-center"><i className="material-icons pr-3 text-blue-700">chevron_right</i>home</li>
+          <li className="uppercase text-white py-4 flex items-center"><i className="material-icons pr-3 text-blue-700">chevron_right</i>schedule</li>
+          <li className="uppercase text-white py-4 flex items-center"><i className="material-icons pr-3 text-blue-700">chevron_right</i>sponsors & partners</li>
+          <li className="uppercase text-white py-4 flex items-center"><i className="material-icons pr-3 text-blue-700">chevron_right</i>contact us</li>
+        </ul>
+      </div>
+      <div>
+        <h1 className="text-white font-bold text-2xl">Address</h1>
+        <h1 className="text-white py-4 flex items-center"><i className="material-icons pr-3 text-indigo-500">map</i>1702 & 1706 , Mazaya Business Avenue BB2, Al Thanya Fifth, Jumeirah Lakes Towers, Dubai, UAE</h1>
+        <h1 className="text-white font-bold text-2xl">Call Us</h1>  
+        <h1 className="text-white py-4 flex items-center"><i className="material-icons pr-3 text-indigo-500">phone_forwarded</i>+971 4 243 4677/88</h1>
+        <h1 className="text-white font-bold text-2xl">Email Us</h1>
+        <h1 className="text-white py-4 flex items-center"><i className="material-icons pr-3 text-indigo-500">mail</i>info@verve-management.com</h1>
+      </div>
+      <div className="pl-2">
+      <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d57823.351429511094!2d55.146148!3d25.069363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6cafd619c309%3A0xfa853f4a41d8970!2sIL%20Mazaya%20Business%20Avenue%20BB-2!5e0!3m2!1sen!2sus!4v1690932957227!5m2!1sen!2sus" className="border-none" width={400} height={300} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+      <div className="mt-8">
+         <h1 className="text-center text-white text-base">Copyrights © {new Date().getFullYear()} All Rights Reserved I Verve Management.</h1>
+      </div>
+    </footer>
     </>
   );
 }
