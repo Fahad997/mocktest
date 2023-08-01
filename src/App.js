@@ -235,6 +235,19 @@ const App = () => {
       <img src="/sponsor.png" alt="Sponsor" width={2000} />
     </div>
     </section>
+
+    <section className="my-8">
+    <h1 className="uppercase text-blue-700 font-bold text-4xl text-center">sponsors & partners</h1>
+    <div className="flex mt-10 gap-10 justify-center">
+    <img src="/uaenews.png" className="w-40" alt="UAE NEWS" />
+    <img src="/mygate.png" className="w-40" alt="MY GATE" />
+    <img src="/exotel.png" className="w-40" alt="EXOTEL" />
+    <img src="/blocktides.png" className="w-40" alt="BLOCK TIDES" />
+    <img src="/tcu.png" className="w-40" alt="TCU" />
+    </div>
+    <h1 className="my-6 text-center">To find out more about the ROI-driven sponsorship and exhibition opportunities, contact us now at</h1>
+    <h1 className="text-center">+971 4 243 4677 or email <a href="#" className="text-red-500">info@verve-management.com</a></h1>
+    </section>
     </>
   );
 }
