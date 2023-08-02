@@ -130,7 +130,9 @@ const App = () => {
         </div>
         <div>
           <img className="w-1/2 flex mx-auto border rounded-full border-transparent py-4" src="/propertymanagementcompany.gif" alt="Animation1" />
-          <h1 className="text-2xl text-center font-bold">Property Management Companies</h1>
+          <h1 className="text-2xl text-center font-bold">Property</h1>
+          <h1 className="text-2xl text-center font-bold">Management</h1>
+          <h1 className="text-2xl text-center font-bold">Companies</h1>
         </div>
       </div>
     </section>
