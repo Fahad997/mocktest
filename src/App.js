@@ -47,13 +47,18 @@ const App = () => {
         </div>
         </div>
         <div className="mt-16 flex justify-center font-bold text-lg">
-        <Typewriter onInit={(typewriter) => {
+        <Typewriter
+        options={{
+        autoStart: true,
+        loop: true,
+         }}
+          onInit={(typewriter) => {
           typewriter
          .typeString("Embracing Proptech to drive Innovation in Real Estate")
-         .pauseFor(500)
+         .pauseFor(100)
          .deleteAll()
          .typeString("Embracing Proptech to drive Innovation in Real Estate")
-         .start();
+         .start()
          }}
 />
         </div>
